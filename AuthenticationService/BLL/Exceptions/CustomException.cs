@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AuthenticationService.BLL
+namespace AuthenticationService.BLL.Exceptions
 {
     public class CustomException : Exception
     {

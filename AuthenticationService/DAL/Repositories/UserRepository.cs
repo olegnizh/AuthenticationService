@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using AuthenticationService.DAL.Models;
 
-namespace AuthenticationService.DAL
+namespace AuthenticationService.DAL.Repositories
 {
     public class UserRepository : IUserRepository
     {

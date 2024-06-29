@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Net.Mail;
-using AuthenticationService.DAL;
+using AuthenticationService.DAL.Models;
 
 namespace AuthenticationService.PLL
 {

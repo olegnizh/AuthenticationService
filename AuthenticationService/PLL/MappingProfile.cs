@@ -1,4 +1,4 @@
-﻿using AuthenticationService.DAL;
+﻿using AuthenticationService.DAL.Models;
 using AutoMapper;
 
 namespace AuthenticationService.PLL

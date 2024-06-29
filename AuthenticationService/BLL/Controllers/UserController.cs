@@ -1,4 +1,7 @@
-﻿using AuthenticationService.DAL;
+﻿using AuthenticationService.BLL.Logging;
+using AuthenticationService.DAL.Models;
+using AuthenticationService.DAL.Repositories;
+using AuthenticationService.BLL.Exceptions;
 using AuthenticationService.PLL;
 using AutoMapper;
 using Microsoft.AspNetCore.Authentication;
@@ -11,7 +14,7 @@ using System.Security.Authentication;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace AuthenticationService.BLL
+namespace AuthenticationService.BLL.Controllers
 {
     [ExceptionHandler]
     [ApiController]

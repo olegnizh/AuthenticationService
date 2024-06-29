@@ -1,5 +1,3 @@
-using AuthenticationService.BLL;
-using AuthenticationService.DAL;
 using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -9,6 +7,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System.Threading.Tasks;
 using AuthenticationService.PLL;
+using AuthenticationService.BLL.Middlewares;
+using AuthenticationService.BLL.Logging;
+using AuthenticationService.DAL.Repositories;
 
 
 namespace AuthenticationService

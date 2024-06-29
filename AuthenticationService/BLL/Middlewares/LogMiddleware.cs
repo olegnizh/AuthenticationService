@@ -1,7 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AuthenticationService.BLL.Logging;
+using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;
 
-namespace AuthenticationService.BLL
+namespace AuthenticationService.BLL.Middlewares
 {
     public class LogMiddleware
     {
