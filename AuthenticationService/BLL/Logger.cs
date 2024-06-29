@@ -5,10 +5,10 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace AuthenticationService
+namespace AuthenticationService.BLL
 {
-	public class Logger : ILogger
-	{
+    public class Logger : ILogger
+    {
         private ReaderWriterLockSlim lock_ = new ReaderWriterLockSlim();
         private string logDirectory { get; set; }
 

@@ -1,3 +1,5 @@
+using AuthenticationService.BLL;
+using AuthenticationService.DAL;
 using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -6,10 +8,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System.Threading.Tasks;
+using AuthenticationService.PLL;
+
 
 namespace AuthenticationService
 {
-	public class Startup
+    public class Startup
 	{
 		public Startup(IConfiguration configuration)
 		{
