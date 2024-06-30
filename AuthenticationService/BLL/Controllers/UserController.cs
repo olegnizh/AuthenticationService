@@ -68,7 +68,7 @@ namespace AuthenticationService.BLL.Controllers
             return userViewModel;
         }
 
-        [HttpGet]
+        [HttpPost]
         [Route("authenticate")]
         public async Task<UserViewModel> Authenticate(string login, string password)
         {
